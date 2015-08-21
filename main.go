@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	"os"
+	"github.com/mitchellh/go-ps"
 )
 
 func main() {
-	fmt.Println("Hello GitHub")
-
-	fmt.Println(os.Getenv("PATH"))
+	procs, _ := ps.Processes()
+	for i, c := range procs {
+		fmt.Println(i, c)
+	}
 }
