@@ -10,4 +10,5 @@ func main() {
 	for i, c := range procs {
 		fmt.Println(i, c)
 	}
+	fmt.Println("Hello")
 }
