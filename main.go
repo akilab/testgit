@@ -2,13 +2,16 @@ package main
 
 import (
 	"fmt"
-	"github.com/mitchellh/go-ps"
 )
 
 func main() {
+<<<<<<< HEAD
 	procs, _ := ps.Processes()
 	for i, c := range procs {
 		fmt.Println(i, c)
 	}
 	fmt.Println("Hello")
+=======
+	fmt.Println("Hello GitHub!!!")
+>>>>>>> master
 }
