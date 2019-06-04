@@ -6,4 +6,5 @@ import (
 
 func Hello(){
 	fmt.Println("Hello Github")
+	fmt.Println("Hello GitHub")
 }
